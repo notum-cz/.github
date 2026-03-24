@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+
+contact_links:
+  - name: Security issues
+    url: mailto:devs@notum.cz
+    about: Report security vulnerabilities privately via email.

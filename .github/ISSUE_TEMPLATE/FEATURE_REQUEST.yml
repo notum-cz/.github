@@ -22,21 +22,6 @@ body:
     attributes:
       label: "Describe alternatives you've considered"
       description: A clear and concise description of any alternative solutions or features you've considered.
-  - type: dropdown
-    id: area
-    attributes:
-      label: "Area"
-      description: Which part of the application would this affect?
-      multiple: true
-      options:
-        - Frontend (Next.js)
-        - Backend (Strapi)
-        - API / Integration
-        - CI/CD / Build
-        - Design System
-        - Infrastructure / Deployment
-        - Testing
-        - Other
   - type: textarea
     id: context
     attributes:

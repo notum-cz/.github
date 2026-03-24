@@ -46,7 +46,7 @@ body:
     id: logs
     attributes:
       label: "Logs"
-      description: Please copy and paste relevant log output (browser console, Strapi logs, Next.js server logs, etc.).
+      description: Please copy and paste relevant log output.
       render: shell
   - type: dropdown
     id: severity
@@ -59,18 +59,6 @@ body:
         - High
     validations:
       required: true
-  - type: dropdown
-    id: area
-    attributes:
-      label: "Area"
-      description: Which part of the application is affected?
-      multiple: true
-      options:
-        - Frontend (Next.js)
-        - Backend (Strapi)
-        - API / Integration
-        - CI/CD / Build
-        - Other
   - type: dropdown
     id: env
     attributes:
@@ -85,7 +73,7 @@ body:
     id: browsers
     attributes:
       label: "Browsers"
-      description: What browsers are you seeing the problem on?
+      description: What browsers are you seeing the problem on? (if applicable)
       multiple: true
       options:
         - Chrome
@@ -93,13 +81,15 @@ body:
         - Safari
         - Firefox
         - Other
+        - N/A
   - type: dropdown
     id: device
     attributes:
       label: "Device"
-      description: What device are you seeing the problem on?
+      description: What device are you seeing the problem on? (if applicable)
       multiple: true
       options:
         - Desktop
         - Tablet
         - Mobile
+        - N/A
