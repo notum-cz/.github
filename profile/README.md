@@ -2,38 +2,148 @@
   <img src="./assets/notum-logo.svg" alt="Notum logo" width="240" />
 </p>
 
-# Introduction
+# Notum Technologies
 
-Welcome to Notum — a friendly, Brno-based team building web products with a clear focus on Strapi and modern JavaScript.
+We build **Strapi-based systems that don’t fall apart at scale**.
 
-Since 2018, we have worked with startups, teams, and growing organizations to make content workflows simpler, products easier to maintain, and releases more predictable.
+Most CMS setups work fine... until:
+- Multiple teams start editing content
+- Multiple markets need different rules
+- Integrations pile up
+- Releases become risky
 
-## What we work on
+That’s where we usually come in.
 
-### Strapi
-- Build, modernize, or stabilize Strapi-based platforms.
-- Migrate legacy CMSes (like WordPress, Storyblok, Sitecore) to Strapi with careful attention to content structure and SEO.
-- Stay close to your team so architecture, delivery, and support stay practical and useful.
 
-### Open source
-- We build and contribute to open-source tools because shared solutions help everyone move faster.
-- We’re known for practical Strapi integrations, starters, and ecosystem work that aim to be useful for real projects.
 
-### Custom software
-- Build custom web and mobile apps with Next.js, Nuxt, React, Vue, Node.js, TypeScript, and related technologies.
-- We support teams with nearshore delivery by embedding team members directly and keeping momentum steady and communication clear.
+## Our clients
 
-### Community
-- We host and support Strapi and frontend meetups, and we enjoy sharing knowledge through events, workshops, and practical sessions.
+### SaaS scale-ups (Series A/B, $20M+)
 
-## How we usually help
-- From idea to delivery, we support teams with strategy, implementation, and operations so products can actually ship.
-- We work with customers around the world, including enterprise teams and growing global companies.
-- You need a reliable Strapi migration or a platform rescue.
-- You need a performant, modern frontend and cleaner content operations.
-- You need support for practical delivery topics like DevOps, CI/CD, and CDN setup.
-- You want practical collaboration with a team that communicates clearly and works with you, not just for you.
+- https://strapi.io  
+- https://www.meilisearch.com  
+- https://lokalise.com  
 
-## Get in touch
-- Website: [https://www.notum.tech](https://www.notum.tech)
-- Contact: [sales@notum.cz](mailto:sales@notum.cz)
+You have:
+- Fast product iteration  
+- Global content + localization  
+- A small team doing everything  
+
+Things start breaking when:
+- Content models don’t match product complexity  
+- Marketing layer slows you down  
+- Editors don’t have proper tooling  
+
+
+
+### Mid-market / enterprise platforms (500–3,000 people)
+
+- https://www.direct.cz  
+- https://optitrack.com  
+
+You have:
+- Multiple brands / regions  
+- CMS connected to internal systems  
+- Several teams touching the same platform  
+
+Things start breaking when:
+- Content ops become slow across markets  
+- Integrations get fragile  
+- Releasing changes feels risky  
+
+
+
+## What we actually build
+
+- CMS architecture that survives multi-team usage  
+- Next.js frontends (SSR / ISR where it makes sense)  
+- Integrations with CRM / ERP / internal APIs  
+- Content models for multi-brand / multi-locale setups  
+- Migrations from legacy CMSs → Strapi  
+- Fixing your Strapi that became unmaintainable  
+
+
+
+## How we work
+
+We don’t sit outside your team.
+
+- Same repo  
+- Same CI/CD  
+- Same release cycle  
+
+We take ownership of parts of the system (FE / BE / QA) and **ship continuously**.
+
+
+
+## Open source & community
+
+We put a lot of our work back into the ecosystem.
+
+- Our **Strapi + Next.js starter** is public  
+- We use it on every new project  
+- We **continuously backport improvements from real production work**  
+- We build plugins when something is missing  
+
+Why we do this:
+- Good defaults remove entire classes of problems  
+- Shared tooling → faster teams, fewer mistakes  
+
+
+
+## What you’ll find here
+
+Not demos. Not experiments.  
+This is code that comes from actual projects.
+
+### 🚀 Starter
+
+**[`strapi-next-monorepo-starter`](https://github.com/notum-cz/strapi-next-monorepo-starter)**
+
+- Turborepo (apps + shared packages)  
+- Strapi + Next.js + shadcn/ui  
+- structure that works with multiple apps and teams  
+
+
+
+### 🔌 Plugins
+
+- [`strapi-plugin-seo`](https://github.com/notum-cz/strapi-plugin-seo) → structured SEO fields  
+- [`strapi-plugin-location`](https://github.com/notum-cz/strapi-plugin-location) → PostGIS + geo queries  
+- [`strapi-plugin-record-locking`](https://github.com/notum-cz/strapi-plugin-record-locking) → no more overwrites  
+- [`strapi-plugin-tiptap-editor`](https://github.com/notum-cz/strapi-plugin-tiptap-editor) → usable rich text editor  
+- *Deprecated* [`strapi-plugin-content-versioning`](https://github.com/notum-cz/strapi-plugin-content-versioning) → content history taken over by Strapi team into v5  
+
+
+
+### ⚙️ Other
+
+- buildpacks (Turbo / Next optimizations)  
+- migration + scraping scripts  
+- small internal tools we decided to share  
+
+
+## Track record
+
+- 50+ CMS / web platforms  
+- Apps handling 10M+ monthly users  
+- Long-term work with the Strapi core team  
+
+
+## Stack
+
+- [Strapi](https://github.com/strapi/strapi) 
+- Next.js, React  
+- Node.js, TypeScript, NestJS  
+- PostgreSQL (+ PostGIS)  
+- API-first architecture  
+
+
+
+If your CMS is:
+- Slowing releases down  
+- Breaking with multiple teams or regions
+- Or becoming “that thing nobody wants to touch” 
+
+
+you’ll likely recognize the problems this code is solving.
