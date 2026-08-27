@@ -68,7 +68,8 @@ We give back to the Strapi ecosystem:
 
 ### 🔌 Plugins
 
-- [`strapi-plugin-seo`](https://github.com/notum-cz/strapi-plugin-seo)  
+- [`strapi-plugin-seo`](https://github.com/notum-cz/strapi-plugin-seo)
+- [`strapi-smart-populate`](https://www.notum.tech/blog/strapi-smart-populate-plugin)
 - [`strapi-plugin-location`](https://github.com/notum-cz/strapi-plugin-location)  
 - [`strapi-plugin-record-locking`](https://github.com/notum-cz/strapi-plugin-record-locking)  
 - [`strapi-plugin-tiptap-editor`](https://github.com/notum-cz/strapi-plugin-tiptap-editor)  
