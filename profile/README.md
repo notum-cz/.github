@@ -1,5 +1,11 @@
 <p align="center">
-  <img src="./assets/notum-logo.svg" alt="Notum logo" width="240" />
+  <a href="https://notum.tech">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/notum-logo-white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/notum-logo.svg">
+      <img alt="Notum logo" src="./assets/notum-logo.svg" align="center" width="240">
+    </picture>
+  </a>
 </p>
 
 # Notum Technologies
